@@ -1,7 +1,8 @@
 print("FibSeq Calc")
 try:
     steps = int(input("How many steps: "))
-    if steps >= 100:
+    
+    if steps >= 100: #100 corresponds to an artifical cap on the calculator that can be subsituted or removed entirely. If removed add # to lines 5-7
         print("WARNING-HIGH-VALUE-FAILURE")
     elif steps < 100:
         write_type = input("Overwrite(w) or Append(a): ")
