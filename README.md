@@ -1,4 +1,5 @@
 # Fibonacci-Sequence-Calculator
+(my first project)
 This program prints to a txt file an inputted number of FibSeq steps.
 Has an option to overwrite file completely or to just add onto the bottom.
 
