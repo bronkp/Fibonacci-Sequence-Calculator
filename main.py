@@ -9,7 +9,8 @@ try:
         def FibCMD():
             x = 0
             if write_type == "a" or "w":
-                file = open(r"C:\Users\Rory\Desktop\FibSeq\FibSeq.txt", str(write_type))
+ #add chosen directory with name of file to be overwritten/created   
+                file = open("Directory/.txt", str(write_type))
                 true_steps = steps - 2
 
                 def FibHeader():
